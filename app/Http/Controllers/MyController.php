@@ -43,4 +43,9 @@ class MyController extends Controller
 
         return response()->json($user);
     }
+
+    public function exampleUsers()
+    {
+        echo 'Hello! Welcome to Laravel 12 - Example Users';
+    }
 }
